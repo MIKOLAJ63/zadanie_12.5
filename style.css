@@ -1,0 +1,64 @@
+body {
+background: rgb(66, 214, 204);
+font-family: 'Viga'; 
+color: rgb(33, 82, 122);
+letter-spacing: 1.3px;
+}
+main {
+max-width: 1900px;
+}
+h1 {
+text-align: center;
+margin: 80px 0;
+font-size: 50px;
+}
+.box {
+width: 800px;
+margin: 60px auto;
+text-align: center;
+}
+.fa-quote-right {
+float: left;
+margin-right: 10px;
+}
+.fa-quote-left {
+float: right;
+margin-left: 10px;
+} 
+h2 {
+font-size: 40px;
+line-height: 1.4;
+margin-bottom: 75px;
+}
+.buttons {
+margin: 0 auto;
+width: 500px;
+text-align: center;
+margin-top: 75px;
+}
+a, button {
+display: inline-block;
+text-align: center;
+background-color: transparent;
+border: 1px solid rgb(46, 173, 55);
+color: rgb(46, 173, 55);
+text-decoration: none;
+line-height: 35px;
+padding: 0;
+font-size: 25px;
+font-family: inherit;
+}
+a:hover, button:hover {
+background-color: rgb(46, 173, 55);
+color: #10ed2e;
+cursor: pointer;
+}
+a { 
+width: 218px;
+height: 37px;
+}
+button { 
+width: 220px;
+height: 40px;
+margin-bottom: 20px; 
+}
